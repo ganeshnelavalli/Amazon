@@ -24,7 +24,7 @@
 .border:hover{
     border:0.5px solid white;
 }
-/* box 2 */
+
 .add-first{
     color: #cccccc;
     font-size: 0.85rem;
@@ -38,17 +38,21 @@
     display: flex;
     align-items: center;
 }
-/* box 3 */
+
 .nav-search{
     display: flex;
     justify-content: space-evenly;
-    width: 620px;
+    width: 1000px;
     height: 40px;
     background-color: pink;
     border-radius: 4px;
 }
 .nav-search:hover{
     border: 2px solid orange;
+}
+.h:hover{
+    border: 1px solid white;
+    padding: 5px;
 }
 .search-select{
     border-top-left-radius: 4px;
@@ -81,7 +85,7 @@ span{
     font-size: 0.85rem;
     font-weight: 700;
 }
-/* box 6 */
+
 .nav-cart i{
     font-size: 30px;
 }
@@ -114,7 +118,6 @@ span{
     font-weight: 700;
 }
 
-/* toys-section */
 
 .toys-section{
     background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/INSLGW/pc_unrec_refresh._CB555261616_.jpg");
@@ -138,7 +141,6 @@ span{
     color: #007185;
 }
 
-/* shop section */
 
 .shop-section{
     display: flex;
@@ -154,6 +156,12 @@ span{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+#image{
+    margin-left: 35%;
+}
+#im{
+    height: 20%;
+}
 .box-img{
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -167,7 +175,7 @@ span{
 .box-content p{
     color:#007185;
 }
-/*  footer panel  */
+
 .footer-panel1{
     background-color: #37475e;
     color: white;
@@ -207,10 +215,12 @@ ul a{
     background-size: cover;
 }
 .footpanel4{
-    background-color: #0f1111;
+    background-color: rgb(39, 37, 37);
     color: white;
-    height: 100px;
+    height: 255px;
     padding-top: 25px;
+    display: flex;
+    flex-direction: column;
 }
 .pages{
     font-size: 0.75rem;
@@ -218,5 +228,14 @@ ul a{
 }
 .copyright{
     font-size: 0.75rem;
-    text-align: center;
+    text-align: center;
+}
+#info{
+    display: flex;
+    justify-content: center;
+}
+#inf{
+    display: flex;
+    justify-content: center;
+    
 }
